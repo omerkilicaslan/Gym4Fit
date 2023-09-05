@@ -5,9 +5,11 @@ struct SettingsView: View {
     
     var body: some View {
         VStack {
+            BMITopCard()
             Text("Hesaplamalar")
                 .font(.largeTitle)
-                .padding()
+                .padding(.horizontal, 10)
+                .padding(.bottom, 10)
             
             VStack(spacing: 10) {
                 HStack(spacing: 10) {
@@ -45,13 +47,10 @@ struct SettingsView: View {
                     }) {
                         SettingButton(label: "Su İhtiyacı")
                     }
-                    Button(action: {
-                    }) {
-                        SettingButton(label: "Diğer")
-                    }
                 }
             }
             .padding()
+            Spacer()
         }
     }
 }
