@@ -17,6 +17,7 @@
 		6641A16B2AA7BD95007A4376 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6641A16A2AA7BD95007A4376 /* FeedViewModel.swift */; };
 		6641A1702AA7C6CC007A4376 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6641A16F2AA7C6CC007A4376 /* SettingsViewModel.swift */; };
 		A8074AC52AA7CB0400639D50 /* SettingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8074AC42AA7CB0400639D50 /* SettingButton.swift */; };
+		A8074AC92AA7CE8B00639D50 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8074AC82AA7CE8B00639D50 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		6641A16A2AA7BD95007A4376 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		6641A16F2AA7C6CC007A4376 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		A8074AC42AA7CB0400639D50 /* SettingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingButton.swift; sourceTree = "<group>"; };
+		A8074AC82AA7CE8B00639D50 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			children = (
 				6641A1532AA7B185007A4376 /* ContentView.swift */,
 				6641A1662AA7BD12007A4376 /* FeedView.swift */,
+				A8074AC82AA7CE8B00639D50 /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				A8074AC52AA7CB0400639D50 /* SettingButton.swift in Sources */,
 				6641A1672AA7BD12007A4376 /* FeedView.swift in Sources */,
 				6641A1542AA7B185007A4376 /* ContentView.swift in Sources */,
+				A8074AC92AA7CE8B00639D50 /* SettingsView.swift in Sources */,
 				6641A16B2AA7BD95007A4376 /* FeedViewModel.swift in Sources */,
 				6641A1692AA7BD43007A4376 /* BMITopCard.swift in Sources */,
 				6641A1602AA7B446007A4376 /* CircularCountdownView.swift in Sources */,
